@@ -40,14 +40,44 @@
 	opacity: .95;
     }
 
-    #container h2 {
+    #header h2 {
     	color: white;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-family: 'Octin-Vintage', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 10px 15px;
 	text-transform: lowercase;
+	display: inline;
     }
+
+   #navbar {
+	float: right;
+	display: inline;
+    }
+
+   #navbar ul {
+
+		
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+   	background-color: #6A715F;
+	color: white;
+	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }  
+
+  #navbar ul li {
+    float: left;
+  }  
+
+  #navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px 14px 16px;
+    text-decoration: none;
+  }
 
     @media only screen and (max-width: 768px) {
         div#container {
@@ -61,6 +91,12 @@
 		-moz-background-size:240px 180px;
 		background-position: center;
 	}
+	#header h2 {
+		font-size: 1em;
+		text-align:center;
+		display: block;
+	}
+    	#navbar {display:none;}
      }
   </style>
 
@@ -70,8 +106,18 @@
   <div id='container'>
     <div id ='header'>
      <h2>Chris & Caitlin • 6. 9. 2017 • Brooklyn, NY</h2>
-    </div>
+
+    <div id='navbar'>
+	<ul>
+	  <li><a href='about'>About Us</a></li>
+	  <li><a href='travel'>Travel & Accomodations</a></li>
+	  <li><a href='todo'>Stuff To Do</a></li>
+	  <li><a href='rsvp'>RSVP</a></li>
+  	</ul> 
+    </div> 
     
+
+    </div>
   </div>
 
 </body>
