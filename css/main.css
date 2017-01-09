@@ -26,7 +26,7 @@
 	-o-background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
-	background-position:center;
+	background-position: center;
 	background-image:url(/assets/img/chrait.png);
     }
 
@@ -55,6 +55,11 @@
 	margin: 10px 15px;
 	text-transform: lowercase;
 	display: inline;
+    }
+
+    #header h2 a {
+	text-decoration: none;
+	color: white;
     }
 
    #navbar {
@@ -113,7 +118,8 @@
 		-o-background-size: 240px 180px;
 		-webkit-background-size:240px 180px;
 		-moz-background-size:240px 180px;
-		background-position: center;
+		background-position: center 60px;
+		background-repeat: no-repeat;
 	}
 
 	div#container-no-bg {
@@ -126,20 +132,17 @@
 		text-align:center;
 		display: block;
 	}
-    	#navbar {display:none;}
-	
-	/*
-	#navbar {
-		display: block;
-		float: left;
-		margin: auto;
-		width: 90%;
-		border: 1px solid red;
-	}
+    	
+	#navbar {display:block;}
 	#navbar ul li a {
-		font-size: 1em;
+ 	    display: block;
+ 	    color: white;
+	    text-align: center;
+	    padding: 0px 16px 14px 16px;
+	    text-decoration: none;
+	    font-size: .75em;
+	    text-transform: lowercase;
 	}
-	*/
 
 	div.page-content {
 		width: 95%;
@@ -147,6 +150,7 @@
 	img.page-main {
 		width: 240px;
 		height: 180px;
+		padding-top: 40px;
 	}
      }
 
