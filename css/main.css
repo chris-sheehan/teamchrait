@@ -133,7 +133,7 @@
 		display: block;
 	}
     	
-	#navbar {display:block; margin: 0px auto;}
+	#navbar {float: none; display:block; margin: 0px auto;}
 	#navbar ul li a {
  	    display: block;
  	    color: white;
