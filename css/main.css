@@ -104,9 +104,14 @@
     margin: auto;
   }
 
-  #content h3 {
+  #content h3, h4 {
     text-align: center;
   }
+
+  #content a {
+    color: white;
+  }
+
 
     @media only screen and (max-width: 945px) {
         div#container {
