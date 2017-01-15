@@ -14,7 +14,7 @@
 	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
 
-    p {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .9em;}
+    p, #content ul li {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .9em;}
 
     div#container, div#container-no-bg {
 	position: fixed;
@@ -172,4 +172,8 @@ div#corner_pop img {
   div#corner_pop img {
     display: none; } 
 } 
+
+
+#content h3.left {text-align:left;}
+
 
