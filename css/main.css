@@ -125,38 +125,38 @@
 		-moz-background-size:240px 180px;
 		background-position: center 60px;
 		background-repeat: no-repeat;
-	}
+		}
 
-	div#container-no-bg {
-		height: 20px;
-		width: 100%;
-	}	
+		div#container-no-bg {
+			height: 20px;
+			width: 100%;
+		}	
 
-	#header h2 {
-		font-size: 1em;
-		text-align:center;
-		display: block;
-	}
-    	
-	#navbar {float: none; display:block; margin: 0px auto;}
-	#navbar ul li a {
- 	    display: block;
- 	    color: white;
-	    text-align: center;
-	    padding: 0px 10px 14px 10px;
-	    text-decoration: none;
-	    font-size: .6em;
-	    text-transform: lowercase;
-	}
+		#header h2 {
+			font-size: 1em;
+			text-align:center;
+			display: block;
+		}
+	    	
+		#navbar {float: none; display:block; width: 160px; margin: 0px auto;}
+		#navbar ul li a {
+	 	    display: block;
+	 	    color: white;
+		    text-align: center;
+		    padding: 0px 10px 14px 10px;
+		    text-decoration: none;
+		    font-size: .6em;
+		    text-transform: lowercase;
+		}
 
-	div.page-content {
-		width: 95%;
-	}
-	img.page-main {
-		width: 240px;
-		height: 180px;
-		padding-top: 40px;
-	}
+		div.page-content {
+			width: 95%;
+		}
+		img.page-main {
+			width: 240px;
+			height: 180px;
+			padding-top: 40px;
+		}
      }
 
 /********  Leesi Anchor Pic   ********/
