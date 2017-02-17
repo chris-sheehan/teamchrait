@@ -6,7 +6,7 @@ layout: page
 ---
 
   <div id='content'>
-  <img class='page-main' src='{{site.baseurl}}/assets/img/worth-street-trimmed.png'>
+  <img class='page-main' src='{{site.baseurl}}/assets/img/worth-street-resized.png'>
 
   <h2>Friday, June 9, 2017, at 6pm</h2>
   <h2>Stone Park Cafe</h2>
