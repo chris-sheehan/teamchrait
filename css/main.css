@@ -8,10 +8,16 @@
 	src: url(./fonts/JosefinSlab-SemiBold.ttf) format("truetype");
     }
 
+    @font-face {
+	font-family: "Constantia";
+	src: url(./fonts/Constantia.ttf) format("truetype");
+    }
+
     body {
-	background-color: #6A715F;
+	/*background-color: #6A715F; */
+	background-color: #D4D4D4;
 	color: white;
-	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
 
     p, #content ul li {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .9em;}
@@ -36,14 +42,14 @@
 
     div#container-no-bg {
 	background-image: none;
-	background-color: #6A715F;
+	background-color: #D4D4D4;
     }
 
     div#header {
 	width: 100%;
 	position: fixed;
 	top 5;
-	background-color: #6A715F;
+	background-color: #D4D4D4;
 	opacity: .95;
     }
 
@@ -51,7 +57,7 @@
     	color: white;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-family: 'Octin-Vintage', 'Open Sans','Helvetica Neue',Arial,sans-serif;
-	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 10px 15px;
 	text-transform: lowercase;
 	display: inline;
@@ -72,9 +78,9 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-   	background-color: #6A715F;
+   	background-color: #D4D4D4;
 	color: white;
-	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }  
 
   #navbar ul li {
@@ -97,6 +103,7 @@
     height: 360px;
     display: block;
     margin: auto;
+    margin-top: 45px;
   }
 
   div.page-content {
