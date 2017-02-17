@@ -16,7 +16,7 @@
     body {
 	/*background-color: #6A715F; */
 	background-color: #D4D4D4;
-	color: white;
+	color: #033F1E;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
 
@@ -54,7 +54,7 @@
     }
 
     #header h2 {
-    	color: white;
+    	color: #033F1E;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-family: 'Octin-Vintage', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -65,7 +65,7 @@
 
     #header h2 a {
 	text-decoration: none;
-	color: white;
+	color: #033F1E;
     }
 
    #navbar {
@@ -79,7 +79,7 @@
 	padding: 0;
 	overflow: hidden;
    	background-color: #D4D4D4;
-	color: white;
+	color: #033F1E;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }  
 
@@ -89,7 +89,7 @@
 
   #navbar ul li a {
     display: block;
-    color: white;
+    color: #033F1E;
     text-align: center;
     padding: 0px 10px 14px 10px;
     text-decoration: none;
@@ -116,7 +116,7 @@
   }
 
   #content a {
-    color: white;
+    color: #033F1E;
   }
 
 
@@ -148,7 +148,7 @@
 		#navbar {float: none; display:block; width: 160px; margin: 0px auto;}
 		#navbar ul li a {
 	 	    display: block;
-	 	    color: white;
+	 	    color: #033F1E;
 		    text-align: center;
 		    padding: 0px 10px 14px 10px;
 		    text-decoration: none;
