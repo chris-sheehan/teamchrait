@@ -20,7 +20,8 @@
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
 
-    p, #content ul li {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .9em;}
+    p, #content ul li {font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans', 'Arial', sans-serif;font-size: 1.2em;}
+
 
     div#container, div#container-no-bg {
 	position: fixed;
@@ -81,6 +82,7 @@
    	background-color: #D4D4D4;
 	color: #033F1E;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-weight: bold;
     }  
 
   #navbar ul li {
