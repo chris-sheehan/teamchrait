@@ -15,7 +15,9 @@
 
     body {
 	/*background-color: #6A715F; */
-	background-color: #D4D4D4;
+	/*background-color: #D4D4D4; */
+	background: #D4D4D4 url("/assets/img/sketch.png");
+	background-size: 100%;
 	color: #033F1E;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
@@ -51,13 +53,12 @@
 	position: fixed;
 	top 5;
 	background-color: #D4D4D4;
+	background-color: rgba(212,212,212,.25);
 	opacity: .95;
     }
 
     #header h2 {
     	color: #033F1E;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-family: 'Octin-Vintage', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 10px 15px;
 	text-transform: lowercase;
@@ -81,6 +82,7 @@
 	overflow: hidden;
    	background-color: #D4D4D4;
 	color: #033F1E;
+	background-color: rgba(212,212,212,.0);
 	font-family: 'Constantia', 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-weight: bold;
     }  
