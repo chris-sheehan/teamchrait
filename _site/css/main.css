@@ -14,7 +14,7 @@
 	font-family: 'JosefinSlab-SemiBold', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     }
 
-    p {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .75em;}
+    p, #content ul li {font-family: 'Open Sans', 'Arial', sans-serif;font-size: .9em;}
 
     div#container, div#container-no-bg {
 	position: fixed;
@@ -85,7 +85,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 0px 16px 14px 16px;
+    padding: 0px 10px 14px 10px;
     text-decoration: none;
     font-size: 1.5em;
     text-transform: lowercase;
@@ -104,9 +104,14 @@
     margin: auto;
   }
 
-  #content h3 {
+  #content h3, h4 {
     text-align: center;
   }
+
+  #content a {
+    color: white;
+  }
+
 
     @media only screen and (max-width: 945px) {
         div#container {
@@ -133,14 +138,14 @@
 		display: block;
 	}
     	
-	#navbar {display:block;}
+	#navbar {float: none; display:block; margin: 0px auto;}
 	#navbar ul li a {
  	    display: block;
  	    color: white;
 	    text-align: center;
-	    padding: 0px 16px 14px 16px;
+	    padding: 0px 10px 14px 10px;
 	    text-decoration: none;
-	    font-size: .75em;
+	    font-size: .6em;
 	    text-transform: lowercase;
 	}
 
@@ -167,4 +172,8 @@ div#corner_pop img {
   div#corner_pop img {
     display: none; } 
 } 
+
+
+#content h3.left {text-align:left;}
+
 
