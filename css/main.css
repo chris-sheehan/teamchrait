@@ -113,7 +113,12 @@
     margin: auto;
   }
 
-  #content h3, h4 {
+  div#content {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #content h2, h3, h4 {
     text-align: center;
   }
 
@@ -147,14 +152,14 @@
 			display: block;
 		}
 	    	
-		#navbar {float: none; display:block; width: 160px; margin: 0px auto;}
+		#navbar {float: none; display:block; width: 200px; margin: 0px auto;}
 		#navbar ul li a {
 	 	    display: block;
 	 	    color: #033F1E;
 		    text-align: center;
 		    padding: 0px 10px 14px 10px;
 		    text-decoration: none;
-		    font-size: .6em;
+		    font-size: .8em;
 		    text-transform: lowercase;
 		}
 
