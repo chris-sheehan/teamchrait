@@ -152,12 +152,12 @@
 			display: block;
 		}
 	    	
-		#navbar {float: none; display:block; width: 200px; margin: 0px auto;}
+		#navbar {float: none; display:block; width: 450px; margin: 0px auto;}
 		#navbar ul li a {
 	 	    display: block;
 	 	    color: #033F1E;
 		    text-align: center;
-		    padding: 0px 10px 14px 10px;
+		    padding: 0px 10px 14px 35px;
 		    text-decoration: none;
 		    font-size: .8em;
 		    text-transform: lowercase;
